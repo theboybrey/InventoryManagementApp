@@ -10,4 +10,14 @@ public class Drug {
     private double price;
     private LocalDate expirationDate;
 
+    // Update the constructor to include all relevant fields
+    public Drug(int drugId, String drugName, int supplierId, int quantity, double price, LocalDate expirationDate) {
+        this.drugId = drugId;
+        this.drugName = drugName;
+        this.supplierId = supplierId;
+        this.quantity = quantity;
+        this.price = price;
+        this.expirationDate = expirationDate;
+    }
+
 }

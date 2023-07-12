@@ -6,4 +6,12 @@ public class Supplier {
     private String location;
     private String contactDetails;
 
+
+    // Update the constructor to include all relevant fields
+    public Supplier(int supplierId, String supplierName, String location, String contactDetails) {
+        this.supplierId = supplierId;
+        this.supplierName = supplierName;
+        this.location = location;
+        this.contactDetails = contactDetails;
+    }
 }
