@@ -15,9 +15,9 @@ public class DatabaseConnection {
 //    Function to Get Connection to Database
     public Connection getConnection(){
 //        Attributes of the GetConnection Function
-        String databaseName = "";
-        String databaseUser = "";
-        String databasePassword = "";
+        String databaseName = "the_cosign_shop";
+        String databaseUser = "lex";
+        String databasePassword = "Champion2@";
         String url = "jdbc:mysql://localhost/" + databaseName;
 
 //        Error Handler to handle Exceptions while connecting
