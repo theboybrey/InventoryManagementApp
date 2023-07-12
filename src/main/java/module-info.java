@@ -4,6 +4,7 @@ module com.example.cosignshop {
 
 //    MySQL Connection
     requires java.sql;
+    requires mysql.connector.j;
 
 
     opens com.example.cosignshop to javafx.fxml;
