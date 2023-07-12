@@ -2,9 +2,9 @@ package com.example.cosignshop.Repository;
 
 public class PurchaseHistory {
 
-    String drugName;
+    String itemName;
     java.sql.Date dateOfPurchase;
-    String drugType;
+    String itemType;
 
 
 }
